@@ -2,9 +2,9 @@
 
 Over the course of the semester, I hosted review sessions with the following objectives:
 
-1. To improve, enhance, and refine my understanding of course material.
-2. To help my classmates improve, enhance, and refine my classmates' understanding of course material.
-3. To hone my skills as a teacher.
+- To improve, enhance, and refine my understanding of course material.
+- To help my classmates improve, enhance, and refine their understanding of course material.
+- To hone my skills as a teacher.
 
 My presentation decks for those sessions are hosted in this folder.
 
