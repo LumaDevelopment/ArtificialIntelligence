@@ -10,5 +10,5 @@ My presentation decks for those sessions are hosted in this folder.
 
 ## Presentation Recordings
 
-- [Search (February 7, 2024)](https://youtu.be/gZcRIhNhHNQ)
-- [Logical Agents (February 19, 2024)](https://youtu.be/RL97XjKdwWg)
+- [Search (February 7, 2024)](https://youtu.be/UskX44mP_RU)
+- [Logical Agents (February 19, 2024)](https://youtu.be/etZ1u3LykeM)
