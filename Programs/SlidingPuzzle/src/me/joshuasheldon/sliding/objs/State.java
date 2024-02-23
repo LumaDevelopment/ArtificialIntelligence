@@ -30,6 +30,13 @@ public class State implements Comparable<State>, Iterable<Integer> {
     private final LinkedList<Space> blankSpaces;
 
     /**
+     * The distance of this state from its goal state,
+     * calculated at the inception of the state to
+     * avoid repeated executions of the same calculation.
+     */
+    private final int distanceFromGoal;
+
+    /**
      * Create a new state object from a 2D array of integers.
      *
      * @param board The 2D array representing the state of the board
@@ -46,6 +53,7 @@ public class State implements Comparable<State>, Iterable<Integer> {
 
         this.board = board;
         this.blankSpaces = blankSpaces;
+        this.distanceFromGoal = calculateDistanceFromGoal();
 
     }
 
@@ -69,6 +77,8 @@ public class State implements Comparable<State>, Iterable<Integer> {
 
         // Copy blank spaces
         this.blankSpaces = new LinkedList<>(state.blankSpaces);
+
+        this.distanceFromGoal = calculateDistanceFromGoal();
 
     }
 
@@ -122,7 +132,7 @@ public class State implements Comparable<State>, Iterable<Integer> {
      */
     @Override
     public int compareTo(State o) {
-        return Integer.compare(distanceFromGoal(), o.distanceFromGoal());
+        return Integer.compare(getDistanceFromGoal(), o.getDistanceFromGoal());
     }
 
     /**
@@ -133,7 +143,7 @@ public class State implements Comparable<State>, Iterable<Integer> {
      * @return Collective distance of this state
      * from the goal state.
      */
-    public int distanceFromGoal() {
+    private int calculateDistanceFromGoal() {
 
         int totalDistance = 0;
         int boardSize = getBoardSize();
@@ -237,6 +247,17 @@ public class State implements Comparable<State>, Iterable<Integer> {
      */
     public int getBoardSize() {
         return this.board.length;
+    }
+
+    /**
+     * Sums the values obtained by, For each tile on the state,
+     * calculating the Manhattan distance from the tile to its
+     * position in the goal state.
+     *
+     * @return The distance from this state to the goal state.
+     */
+    public int getDistanceFromGoal() {
+        return this.distanceFromGoal;
     }
 
     /**
