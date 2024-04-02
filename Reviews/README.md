@@ -13,3 +13,4 @@ My presentation decks for those sessions are hosted in this folder.
 - [Search (February 7, 2024)](https://youtu.be/UskX44mP_RU)
 - [Logical Agents (February 19, 2024)](https://youtu.be/etZ1u3LykeM)
 - [First-Order Logic (February 28, 2024)](https://youtu.be/youXVsgDgJs)
+- [Quantifying Uncertainty (March 20, 2024)](https://youtu.be/r3X4wxc4Grc)
