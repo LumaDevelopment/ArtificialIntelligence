@@ -24,6 +24,8 @@ example, some handwritten 9’s may look like a 0, they should show up closer to
 
 Presentation and code by Joshua Sheldon, subject to the license of this repository.
 
+Some code by [Shaw Talebi](https://www.shawhintalebi.com/) was used as starting code ([found here](https://github.com/ShawhinT/YouTube-Blog/tree/main/TDA/mapper)).
+
 Some materials in presentation are property of Oxford Languages, [Matthew Wright](https://www.mlwright.org/), 
 [Shaw Talebi](https://www.shawhintalebi.com/), and [scikit-learn](https://scikit-learn.org/stable/).
 
