@@ -9,6 +9,7 @@ example, some handwritten 9’s may look like a 0, they should show up closer to
 
 ## Components
 
+- Project Report - Details our methodology and findings in a consice manner, with complete references.
 - Presentation - Outlines the project, including a brief introduction to TDA, a description of the MNIST dataset, 
   and an explanation of our implementation, innovations, results, and findings.
 - Code - The Jupyter Notebook used to produce many of the figures used in the presentation. Uses the MNIST dataset, 
@@ -22,7 +23,7 @@ example, some handwritten 9’s may look like a 0, they should show up closer to
 
 ## Content Rights
 
-Presentation and code by Joshua Sheldon, subject to the license of this repository.
+Presentation, code, and project report by Joshua Sheldon, subject to the license of this repository.
 
 Some code by [Shaw Talebi](https://www.shawhintalebi.com/) was used as starting code ([found here](https://github.com/ShawhinT/YouTube-Blog/tree/main/TDA/mapper)).
 
